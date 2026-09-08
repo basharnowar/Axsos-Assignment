@@ -2,6 +2,7 @@
     width: 950px;
     background-color: silver;
     margin: 0px ;
+    padding-top: 1px;
     
     
     
@@ -15,7 +16,9 @@
 .top-nav{
     height: 150px;
     background-color: green;
-    margin: 20px ;
+    margin: 20px;
+    
+    
     
 
 }
