@@ -59,8 +59,12 @@ body {
     margin-left: 20px;
 }
 
+#main-video {
+    width: 720px;
+    height: 400px;
+}
 .placeholder {
-    margin-bottom: 20px;
+    
     width: 100%;
 }
 
