@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather Forecast</title>
+</head>
+<body>
+    <header>
+        <h1>DojoWeather</h1>
+
+        <ul class="order">
+            <li onclick="show(this)">Burbank</li>
+            <li onclick="show(this)">Chicago</li>
+            <li onclick="show(this)">Dallas</li>
+        </ul>
+    </header>
+
+    <main>
+        <div class="city-bar">
+            <h2 id="cityName">San Jose</h2>
+
+            <div class="unit-toggle">
+                <label for="unit">show temperature in</label>
+                <select id="unit">
+                    <option value="C">°C</option>
+                    <option value="F">°F</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="forecast">
+            <div class="forecast-card">
+                <h3>Today</h3>
+                <img src="./assets/some_rain.png" alt="rain" class="iconsss">
+                <p class="desc">some rain</p>
+                <p class="temps">
+                    <span class="high" data-c="24">24°</span>
+                    <span class="low" data-c="18">18°</span>
+                </p>
+            </div>
+
+            <div class="forecast-card">
+                <h3>Tomorrow</h3>
+                <img src="./assets/some_sun.png" alt="sunny" class="iconsss">
+                <p class="desc">some sun</p>
+                <p class="temps">
+                    <span class="high" data-c="27">27°</span>
+                    <span class="low" data-c="19">19°</span>
+                </p>
+            </div>
+
+            <div class="forecast-card">
+                <h3>Friday</h3>
+                <img src="./assets/some_clouds.png" alt="cloudy" class="iconsss">
+                <p class="desc">some clouds</p>
+                <p class="temps">
+                    <span class="high" data-c="21">21°</span>
+                    <span class="low" data-c="16">16°</span>
+                </p>
+            </div>
+
+            <div class="forecast-card">
+                <h3>Saturday</h3>
+                <img src="./assets/some_sun.png" alt="sunnny" class="iconsss">
+                <p class="desc">some sun</p>
+                <p class="temps">
+                    <span class="high" data-c="26">26°</span>
+                    <span class="low" data-c="21">21°</span>
+                </p>
+            </div>
+        </div>
+
+        <div class="cookie-banner" id="cookieBanner">
+            <span><img src="./assets/cookie.png" alt="iconsss"></span>
+            <div class="cookie-text">
+                <strong>Stop! Cookie time</strong>
+                <p>We use cookies (sadly not the edible ones) to personalize content and ads, to provide social media features and to analyse our traffic. <a href="#">Read more...</a></p>
+            </div>
+            <button onclick="hide()" id="acceptCookies">I Accept</button>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

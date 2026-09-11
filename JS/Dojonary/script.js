@@ -5,6 +5,9 @@ function turnLogout(btn) {
 function hide(element){
   element.style.display= "none";
 }
-function likeNinja() {
+function likeNinja(elem) {
   alert("ninja was liked");
+  elem.style.backgroundColor = 'blue'
+  
 }
+
