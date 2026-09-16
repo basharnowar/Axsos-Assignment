@@ -10,4 +10,7 @@ function increaseLike(button) {
     const label = button.previousElementSibling;
     const num = parseInt(label.innerText) + 1;
     label.innerText = num + " like(s)";
+    
+    alert("increaseLikes");
+    button.style.backgroundColor= 'blue'
 }
