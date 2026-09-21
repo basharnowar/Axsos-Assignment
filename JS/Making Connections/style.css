@@ -2,8 +2,10 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: gray;
+    background-color: rgb(60, 60, 60);
     list-style: none;
+    /* width: 1000px; */
+    margin-top: -190px;
 }
 .header {
     color: white;
@@ -22,10 +24,186 @@
 .btn{
     border: 2px solid black;
     color: white;
-    background-color: aqua;
+    background-color: rgb(11, 155, 155);
     display: inline-block;
     justify-content: flex-end;
     align-items: flex-end;
 }
 
+.box{
+    border: 2px solid gray;
+    width: 350px;
+    
+}
+.jane{
+    font-size: 30px;
+    margin: 25px;
+}
+.ceo{
+    border-radius: 80px;
+    margin: 25px;
+}
+.firstbox{
+    background-color: rgb(11, 155, 155);
+    width: 353px;
+    height: 100px;
+    
+}
+.space{
+margin: 25px;
+}
+
+.box2{
+    border: 2px solid gray;
+    width: 350px;
+}
+.bottom-box{
+    background-color: black;
+    width: 353px;
+    height: 65px;
+}
+.education{
+    color: white;
+}
+.grey{
+    color: gray;
+}
+
+.right-side{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 10px;
+    margin-top: -50px ;
+}
+.boxnr3 {
+    height: 100px;
+    margin-top: 50px;
+    width: 370px;
+    height: 200px;
+    border-style: solid;
+    border-color: grey;
+}
+.connections {
+    background-color: rgb(44, 44, 44);
+    color: white;
+    margin: -1px;
+    padding-left: 20px;
+    padding: 10px;
+}
+.connections span {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: rgb(124, 129, 129);
+    color: white;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.photos {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    padding-left: 10px;
+    margin-top: 25px;
+}
+.icon{
+    width: 32px;
+    height: 32px; 
+}
+.the-big-one{
+     display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 30px;
+}
+.boxnr4 {
+    height: 100px;
+    margin-top: 50px;
+    width: 370px;
+    height: 250px;
+    border-style: solid;
+    border-color: grey;
+}
+.connections2 {
+    background-color: rgb(44, 44, 44);
+    color: white;
+    margin: -1px;
+    /* padding-left: 30px;
+    padding: 10px;  */
+    display: flex;
+    align-items:center;
+    justify-content: center;
+} 
+.connections2 span {
+    display: flex;
+    /* /* justify-content: center; */
+    align-items: center;
+    width: auto;
+    height: 30px;
+    border-radius: 15px;
+    background-color: rgb(124, 129, 129);
+    color: white;
+    font-weight: bold;
+    margin-top: 10px;
+    padding: 0 12px;
+}
+.photos2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+.avatar2 {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.name2 {
+    margin: 0;
+    font-weight: 500;
+    
+}
+
+.connections2 span {
+    width: auto;
+    height: 30px;
+    padding: 0 12px;
+    border-radius: 35px;
+    font-size: 12px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(124, 129, 129);
+    color: white;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.view-more {
+    color: dodgerblue;
+    display: flex;
+    padding-left: 10px;
+    margin-top: 10px;
+    font-size: 14px;
+    border-top: 2px solid gray;
+}
+.the-big-dogg{
+    margin: 100px;
+    padding: 100px;
+}
 
