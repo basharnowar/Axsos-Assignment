@@ -1,0 +1,114 @@
+.color-blue{
+    background-color: rgb(36, 80, 117);
+}
+.python-title{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+.search-box{
+    display: flex;
+    background-color: rgb(68 68 68);
+    padding: 30px;
+    border-radius: 10px;
+    /* vertical-align: auto; */
+}
+input{
+    text-align: center;
+    margin: 7px;
+}
+.size-color{
+    color:rgb(166 149 28);
+}
+button{
+    background-color: rgb(36, 80, 117);
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 6px;
+}
+
+.middle{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    color: rgb(245 254 255);
+    font-size: x-large;
+}
+.middle-border{
+    border: 5px solid rgb(68 124 172);
+    background-color: rgb(68 124 172);
+    padding: 1px;
+    margin: 30px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 6px black;;
+}
+
+.spears{
+    font-size: x-large;
+    color: rgb(190 172 70);
+    text-align: center;
+    
+}
+.bullet-list{
+    color: white;
+    display: flex;
+}
+.paragraph-right{
+    width: 55%;
+    margin-left: auto;
+    font-size: x-large;
+    color: rgb(214 223 231);
+    margin-top: -388px;
+}
+
+.double-orders{
+    text-align: center;
+    font-size: x-large;
+    margin-left: auto;
+    list-style: none;
+}
+.another-color{
+    color: rgb(190 172 70);
+}
+.another-color1{
+    color: rgb(214 223 231);
+}
+.color-white{
+    background-color: rgb(255 255 255);
+    padding: 40px 60px;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+.left-box, .another-right{
+    flex: 1;
+    border-top: 3px solid rgb(116 167 214);
+    text-align: center;
+}
+.new-title, .far-right{
+    margin-top: 10px;  
+}
+.light-blue{
+    color: rgb(127 171 208);
+}
+span{
+    color: rgb(127 171 208);
+}
+footer{
+    background-color: rgb(48 108 160);
+    padding: 110px;
+}
+footer ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    color:rgb(119 173 221);
+    padding: 0;
+}
+footer p{
+    text-align: center;
+    font-size: xx-small;
+    color: rgb(119 173 221);
+}

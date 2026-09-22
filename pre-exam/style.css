@@ -1,0 +1,12 @@
+.insane{
+    color: purple;
+    background-color: whitesmoke;
+}
+.yooo{
+    display: flex;
+    justify-content: space-around;
+
+}
+.btn{
+    display: flex;
+}
